@@ -363,7 +363,7 @@ def replace_motor_in_inertial_full(
 
 
 if __name__ == "__main__":
-    base_xml = "urdf_files_dataset/urdf_files/matlab/ur_description/urdf/model.xml"  # исходный UR3 MJCF
+    base_xml = "ur_description/urdf/model.xml"  # исходный UR3 MJCF
 
     # одна базовая модель
     # build_one_variant(base_xml, "ur3_hd_replace_motor_single.xml")
