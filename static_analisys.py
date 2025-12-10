@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from lxml import etree
 
-xml_path = "ur_description/urdf/ur3.xml"        # your path
+xml_path = "ur_description/urdf/ur3_sha_sg_101_variant_16.xml"        # your path
 model = mujoco.MjModel.from_xml_path(xml_path)
 data = mujoco.MjData(model)
 
